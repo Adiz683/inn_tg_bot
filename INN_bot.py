@@ -6,8 +6,8 @@ from aiogram.types import Message
 from aiogram.filters import Command
 from aiogram import Router
 from bs4 import BeautifulSoup
-
-TOKEN = "6908856914:AAH1DceujYEnrBYbDsokw88PC-lUKO3UaNg"
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
