@@ -1,2 +1,1 @@
-web:
-  command: python INN_bot.py
+web: python INN_bot.py
